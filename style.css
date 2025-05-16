@@ -1,3 +1,9 @@
+body{
+    font-family: "Regular", sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+}
+
 header{
     background-image: url(assets/first.svg);
     
@@ -8,7 +14,9 @@ header{
 }
 
  header h{
-    color: aliceblue;
+    font-size: 38px;
+    font-weight: 535;
+    color: #ffffff;
 }
 header p{
     color: aliceblue;
