@@ -1,0 +1,15 @@
+header{
+    background-image: url(assets/first.svg);
+    
+}
+.contener{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+ header h{
+    color: aliceblue;
+}
+header p{
+    color: aliceblue;
+}
