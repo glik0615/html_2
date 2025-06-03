@@ -1,48 +1,198 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     font-family: "Regular", sans-serif;
     font-size: 15px;
     color: aliceblue;
+    margin: 0px;
+    padding: 0px;
 }
 
-header{
+header {
     background-image: url(assets/first.svg);
-    height:776px ;
-    width: 0 auto;
-    margin:0 auto;
-    background-repeat: no-repeat;
     background-size: cover;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto; /* Можно настроить нужную высоту */
+    margin: 0px;
+    padding: 0px;
 }
 
-
- header h{
-    font-size: 38px;
-    font-weight: 535;
-    color: #ffffff;
-}
-header p{
-    color: aliceblue;
-}
-
-.container1{
-  
-    max-width: 1440px;
-    margin: 0 auto;
-}
 .header-line{
-    padding-left: 539px;
+    margin-left: auto;
+    padding-right: 80px;
 }
 
 .header1{
     display: flex;
-    margin-left: 49px;
-    margin-right: 80px;
+    padding-left: 49px;
+    padding-right: 80px;
     margin-top: 16px;
+    align-items: center;
+}
+
+header a{
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    display:inline-block;
+    margin-right:51px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
 }
 
 .header-line{
-    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 26px;
+    margin-left: 80px;
+    padding-left: 524px;
+}
+
+.donate{
+    margin-right: 31px;
+}
+
+.header-little-img{
+    padding: 64px;
+    padding: 17px;
+    width: 110px;
+    height: 26px;
+}
+
+.header-text{
+    margin-top: 189px;
+    margin-right: 681px;
+    margin-left: 64px;
 }
 
 
+header h{
+    font-size: 38px;
+    color: #ffffff;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 400;
+    margin-top: 146px;
+}
 
+
+header p{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 29px;
+    margin-top: 29px;
+}
+
+.header-button{
+        background-color: transparent; /* Прозрачная заливка */
+        border: 2px solid white; /* Белая граница */
+        border-radius: 33px; /* Закругление углов */
+        border: 1px solid; 
+        color: white;
+        padding: 17px 17px; 
+        font-size: 13px; 
+        cursor: pointer; 
+        font-family: 'Public Sans', sans-serif;
+        font-weight: 400;
+}
+
+.trusted{
+    padding: 64px;
+    margin-top: 122px;
+}
+
+.white-lines img{
+    margin-right: 32px;
+    width: 165.31;
+    height: 1px;
+}
+
+header h1{
+    font-size: 15px;  
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.button-lines button{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    all: unset;
+    cursor: pointer;
+    color: #ffffff
+}
+
+.button-lines{
+    display: flex;
+    margin-top: 15px;
+}
+
+.b1{
+    display: flex;
+    flex-direction: column; /* Элементы располагаются в столбец */
+    gap: 17px;
+    margin-right: 157px;
+
+}
+.b2{
+    display: flex;
+    flex-direction: column; /* Элементы располагаются в столбец */
+    gap: 17px;
+    margin-right: 154px;
+}
+.b3{
+    display: flex;
+    flex-direction: column; /* Элементы располагаются в столбец */
+    gap: 17px;
+    margin-right: 136px;
+}
+.b4{
+    display: flex;
+    flex-direction: column; /* Элементы располагаются в столбец */
+    gap: 17px;
+    margin-right: 99px;
+}
+.b5{
+    display: flex;
+    flex-direction: column; /* Элементы располагаются в столбец */
+    gap: 17px;
+    margin-right: 101px;
+}
+.b6{
+    display: flex;
+    flex-direction: column; /* Элементы располагаются в столбец */
+    gap: 17px;
+}
+
+.log{
+    font-size: 12px;
+}
+.learn{
+    font-size: 12px;
+}
+
+main{
+    background-color: #F5F5F5;
+    margin: 0px;
+}
+
+main h2{
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 400;
+    color: #003331;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+}
+
+.main-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 43px;
+    margin-left: 43px;
+}
