@@ -19,13 +19,16 @@ header {
     background-repeat: no-repeat;
     width: auto;
     height: auto; /* Можно настроить нужную высоту */
-    margin: 0px;
+    margin: -2%;
     padding: 0px;
 }
 
+
 .header-line{
-    margin-left: auto;
-    padding-right: 80px;
+    width: 100%;
+    margin-right: 80px;
+    display: flex;
+    justify-content: right;
 }
 
 .header1{
@@ -190,9 +193,46 @@ main h2{
 }
 
 .main-circle{
-    display: flex;
-    align-items: center;
     justify-content: center;
     margin-right: 43px;
     margin-left: 43px;
+    display: flex;
+
+}
+
+.circle-text{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 57px;
+    
+}
+
+.line{
+    margin-top: 97px;
+    margin-left: 43px;
+    margin-right: 44px;
+}
+h3 {
+    font-weight: 110;
+    font-size: 15px;
+    color: #355362;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.cent-position{
+    position: relative;
+}
+
+.cent-position img{
+    height: 100%;
+    width: 100%;
+}
+
+.cent-position h4{
+    position: absolute;
+    margin: 19px;
+    font-weight: 110;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Public Sans', sans-serif;
 }
