@@ -181,6 +181,9 @@ header h1{
 main{
     background-color: #F5F5F5;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 main h2{
@@ -204,8 +207,10 @@ main h2{
     flex-direction: column;
     text-align: center;
     margin-top: 57px;
+    display: block;
     
 }
+
 
 .line{
     margin-top: 97px;
@@ -217,22 +222,111 @@ h3 {
     font-size: 15px;
     color: #355362;
     font-family: 'Public Sans', sans-serif;
+    margin-top: 19px;
 }
 
 .cent-position{
     position: relative;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
 }
 
 .cent-position img{
-    height: 100%;
-    width: 100%;
+    object-fit: cover;
 }
 
-.cent-position h4{
+.h4-text{
     position: absolute;
-    margin: 19px;
-    font-weight: 110;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    z-index: 1; 
     font-size: 16px;
-    color: #ffffff;
     font-family: 'Public Sans', sans-serif;
+    font-weight: 90;
 }
+
+.block2{
+    background-color: #f7f8f8;
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 64px;
+    padding-right: 64px;
+    /*width: 1150px; ;*/
+    height: 261px ;
+    justify-content: space-between;
+}
+.block2-text{
+    padding-top: 80px;
+}
+.block2-text h5{
+    font-family: 'Public Sans', sans-serif;
+    color: #003331;
+    font-size: 22px;
+    font-weight: 100;
+    margin-bottom: 13px;
+}
+.block2-text h6{
+    font-family: 'Public Sans', sans-serif;
+    color: #33505e;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 37px;
+    margin-top: 13px;
+}
+.block2-button{
+        background-color: transparent; /* Прозрачная заливка */
+        border: 1px solid #355362; 
+        border-radius: 33px; /* Закругление углов */
+        border: 1px solid; 
+        color: #355362;
+        cursor: pointer; 
+        width: 153px;
+        height: 54px;
+}
+.block2-image{
+    display: flex;
+}
+.image1{
+    width: 235px; ;
+    height: 266px;
+    margin-right: 8px;
+}
+.image2{
+    width: 317px;
+    height: 262px;
+}
+
+.link_line{
+    background-color: #ffffff;
+    display: flex;
+    color: #355362;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+}
+.line3{
+    margin-right: 32px;
+    margin-bottom: 16px;
+}
+.img_link{
+    display: flex;
+    align-items: center;
+}
+.img_link img{
+    margin-right: 8px;
+}
+.block3{
+    background-color: #001414;
+}
+
+
+
+
