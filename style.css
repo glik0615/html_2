@@ -4,12 +4,13 @@ html, body{
 }
 
 
-body{
+body, html{
     font-family: "Regular", sans-serif;
     font-size: 15px;
     color: aliceblue;
-    margin: 0px;
-    padding: 0px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -19,8 +20,7 @@ header {
     background-repeat: no-repeat;
     width: auto;
     height: auto; /* Можно настроить нужную высоту */
-    margin: -2%;
-    padding: 0px;
+    margin: 0 auto;
 }
 
 
@@ -33,9 +33,9 @@ header {
 
 .header1{
     display: flex;
-    padding-left: 49px;
+    padding-left: 64px;
     padding-right: 80px;
-    margin-top: 16px;
+    margin-top: 17px;
     align-items: center;
 }
 
@@ -50,26 +50,26 @@ header a{
 }
 
 .header-line{
-    margin-top: 26px;
     margin-left: 80px;
-    padding-left: 524px;
+    padding-left: auto;
 }
 
 .donate{
     margin-right: 31px;
 }
 
-.header-little-img{
+/*.header-little-img{
     padding: 64px;
     padding: 17px;
     width: 110px;
     height: 26px;
-}
+}*/
 
 .header-text{
     margin-top: 189px;
     margin-right: 681px;
     margin-left: 64px;
+    white-space: pre-line;
 }
 
 
@@ -120,7 +120,9 @@ header h1{
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
 }
-
+.button-lines{
+    padding-right: 64.12px;
+}
 .button-lines button{
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
@@ -169,6 +171,7 @@ header h1{
     display: flex;
     flex-direction: column; /* Элементы располагаются в столбец */
     gap: 17px;
+    margin-right: 64.12px;
 }
 
 .log{
@@ -186,13 +189,15 @@ main{
     justify-content: center;
 }
 
-main h2{
+.h2-block h2{
     font-family: 'Libre Baskerville', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     color: #003331;
     text-align: center;
     font-size: 30px;
     padding-top: 120px;
+    white-space: pre-line;
+    line-height: 38px;
 }
 
 .main-circle{
@@ -207,8 +212,9 @@ main h2{
     flex-direction: column;
     text-align: center;
     margin-top: 57px;
-    display: block;
-    
+    display: flex;
+    align-items: center;
+    white-space: pre-line;
 }
 
 
@@ -223,6 +229,7 @@ h3 {
     color: #355362;
     font-family: 'Public Sans', sans-serif;
     margin-top: 19px;
+    white-space: pre-line;
 }
 
 .cent-position{
@@ -234,6 +241,7 @@ h3 {
 
 .cent-position img{
     object-fit: cover;
+    margin-bottom: 19px;
 }
 
 .h4-text{
@@ -277,6 +285,7 @@ h3 {
     font-weight: 100;
     margin-bottom: 37px;
     margin-top: 13px;
+    white-space: pre-line;
 }
 .block2-button{
         background-color: transparent; /* Прозрачная заливка */
@@ -324,9 +333,287 @@ h3 {
     margin-right: 8px;
 }
 .block3{
-    background-color: #001414;
+background-color: #001414;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.block3-text{
+    flex-direction: column;
+    display: block;
+    white-space: pre-line;
+}
+.block3-text h7{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 22px;
+    margin-bottom: 27px;
+    margin-top: 247px;
+}
+.block3-text p{
+    font-family: 'Public Sans', sans-serif;
+    line-height: 22px;
+}
+.block4{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    align-items: center;
 }
 
-
-
+.block4-button{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 11px;
+    color: #355362;
+    border: none;
+    background: none;
+    height: 16px;
+    margin-left: 6px;
+    }
+.block4 h8{
+    margin-right: 7px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 11px;
+    color: #355362;
+}
+.block4-img{
+    justify-content: space-evenly;
+}
+.picture{
+    width: 100%;
+    height: 100%;
+}
+.picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.block5{
+    display: flex;
+    padding-left: 64px;
+    padding-right: 65px;
+}
+.first-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 48px;
+    padding-bottom: 141px;
+    width: 237px;
+    height: 320px;
+}
+.second-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 141px;
+    width: 264px;
+    height: 320px;
+}
+.block5 h1{
+    color: #003331;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 38px;
+    white-space: pre-line;
+    width: 424px;
+}
+.block5 h2{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #003331;
+    line-height: 24px;
+}
+.block5 p{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    color: #355362;
+    line-height: 24px;
+    white-space: pre-line;
+    font-weight: lighter;
+}
+.block5-el {
+    margin-bottom: 36px;
+}
+.block6-top h1{
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #000331;
+}
+.middle h2{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 11px;
+    color: #355362;
+    font-weight: 400;
+    margin-left: 16px;
+}
+.middle p{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 11px;
+    color: #355362;
+    font-weight: 100;
+    margin-left: 16px;
+}
+.third-el p1{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 17px;
+    line-height: 24.6px;
+    color: #00413E;
+    white-space: pre-line;
+}
+.block6-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.first-block6-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+.second-block6-div{
+    display: flex;
+    justify-content: space-between;
+}
+.middle{
+    display: flex;
+    align-items: center;
+}
+.block6{
+    background-color: #ffffff;
+    padding-left: 64px;
+    padding-top: 87px;
+    padding-bottom: 132px;
+    padding-right: 64px;
+}
+.block6 button{
+    background:none;
+    border:none;
+    color: #00413E;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13px;
+    padding-right: 97px;
+}
+.block7{
+    background-color: #001F1F;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 146px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 133px;
+}
+.block7 img{
+    padding-top: 9px;
+}
+.block7 h1{
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    line-height: 52px;
+    color: #FAFAFA;
+}
+.block7 p{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    color: #FAFAFA;
+    white-space: pre-line;
+    line-height: 28px;
+    font-weight: 100;
+    margin-top: 43px;
+}
+.block7 button{
+    color: #ffffff;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    background-color: #00665F;
+    border: 1px solid; 
+    border-radius: 33px; /* Закругление углов */
+    border: none; 
+    cursor: pointer; 
+    width: 143px;
+    height: 52px;
+    margin-top: 37px;
+}
+.block-text{
+    margin-right: auto;
+}
+.block8{
+    display: flex;
+    justify-content: space-between;
+    background-color: #001414;
+    padding-left: 64px;
+    padding-right: 164px;
+    padding-top: 112px;
+    padding-bottom: 137px;
+}
+.colum-block{
+    display: flex;
+    flex-direction: column;
+    margin-right: 115px;
+}
+.left-block8{
+    display: flex;
+}
+.right-block{
+    display: flex;
+    flex-direction: column;
+}
+.block8 h1{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+    color: #7D9798;
+    margin-bottom: 24px;
+}
+.block8 img{
+    width: 16px;
+    height: 1px;
+    margin-bottom: 23px;
+}
+.block8 p{
+    margin-bottom: 0%;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #EDECEB;
+}
+.block9{
+    background-color: #000F0F;
+    padding: 40px 64px 63px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+.block9-butt button{
+    background:none;
+    border:none;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 10px;
+    color: #E5ECEC;
+    align-items: flex-end;
+}
+.bottom-button{
+    display: flex;
+    margin-right: 0%;
+    padding-left: 0%;
+}
+.little{
+    font-size: 9px;
+    text-align: justify;
+}
+.end{
+    text-align: justify;
+}
 
