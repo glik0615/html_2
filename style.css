@@ -1,10 +1,5 @@
-html, body{
-    margin: 0px;
-    padding: 0px;
-}
-
-
 body, html{
+
     font-family: "Regular", sans-serif;
     font-size: 15px;
     color: aliceblue;
@@ -22,13 +17,16 @@ header {
     height: auto; /* Можно настроить нужную высоту */
     margin: 0 auto;
 }
-
+.header1 img{
+    padding-top: 17px;
+}
 
 .header-line{
     width: 100%;
     margin-right: 80px;
     display: flex;
     justify-content: right;
+    padding-top: 29px;
 }
 
 .header1{
@@ -48,7 +46,9 @@ header a{
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
 }
-
+header a:hover{
+    color: aquamarine;
+}
 .header-line{
     margin-left: 80px;
     padding-left: auto;
@@ -73,7 +73,7 @@ header a{
 }
 
 
-header h{
+header h5{
     font-size: 38px;
     color: #ffffff;
     font-family: 'Libre Baskerville', sans-serif;
@@ -89,6 +89,7 @@ header p{
     font-weight: 400;
     margin-bottom: 29px;
     margin-top: 29px;
+    line-height: 29px;
 }
 
 .header-button{
@@ -103,9 +104,12 @@ header p{
         font-family: 'Public Sans', sans-serif;
         font-weight: 400;
 }
+.header-button:hover{
+    color: blueviolet;
+}
 
 .trusted{
-    padding: 64px;
+    padding-left: 64px;
     margin-top: 122px;
 }
 
@@ -121,7 +125,9 @@ header h1{
     font-weight: 400;
 }
 .button-lines{
-    padding-right: 64.12px;
+    padding-left: 64px;
+    margin-top: 15px;
+    padding-bottom: 39px;
 }
 .button-lines button{
     font-family: 'Public Sans', sans-serif;
@@ -130,7 +136,9 @@ header h1{
     cursor: pointer;
     color: #ffffff
 }
-
+.button-lines button:hover{
+    color: brown;
+}
 .button-lines{
     display: flex;
     margin-top: 15px;
@@ -297,6 +305,9 @@ h3 {
         width: 153px;
         height: 54px;
 }
+.block2-button:hover{
+    color: blueviolet;
+}
 .block2-image{
     display: flex;
 }
@@ -313,13 +324,19 @@ h3 {
 .link_line{
     background-color: #ffffff;
     display: flex;
-    color: #355362;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 15px;
     padding-left: 64px;
     padding-right: 64px;
     padding-top: 24px;
     padding-bottom: 21px;
+}
+.link_line a{
+    color: #355362;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+.link_line a:hover{
+    color: blueviolet;
 }
 .line3{
     margin-right: 32px;
@@ -343,11 +360,12 @@ align-items: center;
     display: block;
     white-space: pre-line;
 }
-.block3-text h7{
+.block3-text h6{
     font-family: 'Public Sans', sans-serif;
     font-size: 22px;
     margin-bottom: 27px;
     margin-top: 247px;
+    font-weight: 100;
 }
 .block3-text p{
     font-family: 'Public Sans', sans-serif;
@@ -373,7 +391,7 @@ align-items: center;
     height: 16px;
     margin-left: 6px;
     }
-.block4 h8{
+.block4 h5{
     margin-right: 7px;
     font-family: 'Public Sans', sans-serif;
     font-size: 11px;
@@ -414,7 +432,7 @@ align-items: center;
     width: 264px;
     height: 320px;
 }
-.block5 h1{
+.block5 h6{
     color: #003331;
     font-family: 'Libre Baskerville', sans-serif;
     font-weight: 400;
@@ -441,19 +459,23 @@ align-items: center;
 .block5-el {
     margin-bottom: 36px;
 }
-.block6-top h1{
+.block6-top h2{
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 27px;
     font-weight: 400;
     line-height: 38px;
     color: #000331;
 }
-.middle h2{
+.middle a{
     font-family: 'Public Sans', sans-serif;
     font-size: 11px;
     color: #355362;
     font-weight: 400;
     margin-left: 16px;
+    text-decoration: none;
+}
+.middle a:hover{
+    color: blueviolet;
 }
 .middle p{
     font-family: 'Public Sans', sans-serif;
@@ -462,7 +484,7 @@ align-items: center;
     font-weight: 100;
     margin-left: 16px;
 }
-.third-el p1{
+.third-el p{
     font-family: 'Public Sans', sans-serif;
     font-size: 17px;
     line-height: 24.6px;
@@ -503,6 +525,9 @@ align-items: center;
     font-size: 13px;
     padding-right: 97px;
 }
+.block6 button:hover{
+    color: blueviolet;
+}
 .block7{
     background-color: #001F1F;
     display: flex;
@@ -515,7 +540,7 @@ align-items: center;
 .block7 img{
     padding-top: 9px;
 }
-.block7 h1{
+.block7 h3{
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 36px;
     font-weight: lighter;
@@ -544,6 +569,10 @@ align-items: center;
     width: 143px;
     height: 52px;
     margin-top: 37px;
+    cursor: pointer;
+}
+.block7 button:hover{
+    color: blueviolet;
 }
 .block-text{
     margin-right: auto;
@@ -569,7 +598,18 @@ align-items: center;
     display: flex;
     flex-direction: column;
 }
-.block8 h1{
+.right-block a{
+    text-decoration: none;
+    margin-bottom: 0%;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #EDECEB;
+}
+.right-block a:hover{
+    color: blueviolet;
+}
+.block8 h4{
     font-family: 'Public Sans', sans-serif;
     font-size: 11px;
     font-weight: lighter;
@@ -581,12 +621,17 @@ align-items: center;
     height: 1px;
     margin-bottom: 23px;
 }
-.block8 p{
+
+.colum-block a{
     margin-bottom: 0%;
     font-family: 'Public Sans', sans-serif;
     font-size: 15px;
     line-height: 30px;
     color: #EDECEB;
+    text-decoration: none;
+}
+.colum-block a:hover{
+    color: darkcyan;
 }
 .block9{
     background-color: #000F0F;
